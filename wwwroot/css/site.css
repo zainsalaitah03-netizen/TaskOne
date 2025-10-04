@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    background-image: url("../images/img.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+form1 {
+    background-color: magenta;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgb(255, 0, 220);
+    width:320px;
+}
+form1 h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:white;
+}
+form1 label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+.form1 input[type="text"],
+.form1 input[type="email"],
+.form1 input[type="password"],
+.form1 select{
+    width:100%;
+    padding:8px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+.form1 input[type="radio"],
+.form1 input[type="checkbox"]{
+    margin-right:5px;
+}
+.form1 input[type="submit"],
+.form1 input[type="button"]{
+    width:100%;
+    padding:10px;
+    border:none;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+    margin-bottom:10px;
+}
+

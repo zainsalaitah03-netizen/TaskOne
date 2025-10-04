@@ -1,0 +1,45 @@
+﻿<form class="from1" id="form1">
+<h1>Registration</h1>
+<label for="Email">Email:</label>
+<input type="email" id="email"  placeholder="Enter your email" required />
+<br/>
+<label for="fname">First name:</label>
+<input type="text" id="fname" placeholder="Enter first name" required />
+<br/>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" placeholder="Enter last name" required />
+<br/>
+<label for="password">Password:</label>
+<input type="password" id="password" placeholder="enter password" required/>
+<br/>
+<p>Gender:</p>
+<div class="inline-options">
+Male<input type="radio" name="a1"/>
+Female<input type="radio" name="a1"/>
+
+<label for="city">City:</label>
+<select id="city">
+        <option>Madaba</option>
+        <option>Amman</option>
+        <option>Karak</option>
+        <option>Zarqa</option>
+        <option>Aqaba</option>
+</select>
+<br/>
+<p>Study level:</p>
+BA<input type="checkbox" />
+Master<input type="checkbox"  />
+PhD<input type="checkbox"  />
+<br/>
+
+<input type="submit" value="Save" class="btn-save" onclick="fun()"/>
+<input type="button" value="Alert" class="btn-alert" onmouseover="fun()"/>
+</form>
+<script>
+    function fun(){
+        document.getElementById("form").style.backgroundColor="red";
+    }
+    function fun1(){
+        alert("Welcome to company");
+    }
+</script>
